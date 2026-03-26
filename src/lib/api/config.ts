@@ -5,7 +5,7 @@
 export const AMAZON_CONFIG = {
   accessKey: process.env.AMAZON_ACCESS_KEY || '',
   secretKey: process.env.AMAZON_SECRET_KEY || '',
-  partnerTag: process.env.AMAZON_PARTNER_TAG || 'indiabestprod-21',
+  partnerTag: process.env.AMAZON_PARTNER_TAG || 'indiabestpr02-21',
   host: 'webservices.amazon.in',
   region: 'eu-west-1',
   marketplace: 'www.amazon.in',

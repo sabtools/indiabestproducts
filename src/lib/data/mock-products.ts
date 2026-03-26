@@ -32,7 +32,7 @@ function buildProduct(p: {
     price: p.amazonPrice,
     originalPrice: p.amazonMrp,
     discount: Math.round(((p.amazonMrp - p.amazonPrice) / p.amazonMrp) * 100),
-    url: `https://www.amazon.in/dp/${p.amazonAsin}?tag=indiabestprod-21`,
+    url: `https://www.amazon.in/dp/${p.amazonAsin}?tag=indiabestpr02-21`,
     inStock: true,
     rating: p.amazonRating,
     reviewCount: p.amazonReviews,
