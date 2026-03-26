@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://indiabestproducts.com/sitemap.xml
+Sitemap: https://www.indiabestproducts.com/sitemap.xml
