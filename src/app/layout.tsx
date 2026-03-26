@@ -51,6 +51,9 @@ export const metadata: Metadata = {
       "Compare and find the best credit cards, personal loans, health insurance, demat accounts, and more in India.",
     images: ["/og-image.png"],
   },
+  verification: {
+    google: "qYK2hDTTb9FMIhVr7Afp_Xa_sHM6RARfnouiCWe4Doc",
+  },
   other: {
     "verify-admitad": "31653f6703",
   },
