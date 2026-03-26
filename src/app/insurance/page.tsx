@@ -76,6 +76,8 @@ export default function InsuranceHubPage() {
     description:
       'Compare the best health insurance and term life insurance plans in India. Expert reviews, claim settlement ratios, and premium details.',
     url: 'https://indiabestproducts.com/insurance',
+    datePublished: '2026-03-26',
+    dateModified: '2026-03-26',
   };
 
   return (

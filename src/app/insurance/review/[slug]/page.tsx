@@ -10,7 +10,7 @@ import ApplyButton from '@/components/product/ApplyButton';
 import FaqAccordion from '@/components/content/FaqAccordion';
 import RelatedProducts from '@/components/content/RelatedProducts';
 import JsonLd from '@/components/seo/JsonLd';
-import { formatCurrency, generateProductSchema } from '@/lib/utils';
+import { formatCurrency, formatNetworkHospitals, generateProductSchema } from '@/lib/utils';
 
 /* ── Static params ── */
 
@@ -78,7 +78,7 @@ function generateInsuranceFaqs(product: Insurance) {
       ? [
           {
             question: `How many network hospitals does ${product.brand} have?`,
-            answer: `${product.brand} has a network of ${product.networkHospitals.toLocaleString('en-IN')}+ hospitals across India where you can avail cashless hospitalization. Check the insurer website for the updated list of network hospitals in your city.`,
+            answer: `${product.brand} has a network of ${formatNetworkHospitals(product.networkHospitals)} hospitals across India where you can avail cashless hospitalization. Check the insurer website for the updated list of network hospitals in your city.`,
           },
           {
             question: `What is the waiting period for pre-existing diseases?`,
@@ -128,7 +128,7 @@ export default async function InsuranceReviewPage({ params }: { params: Promise<
     { label: 'Premium Starts From', value: product.premiumStartsFrom },
     ...(isHealth
       ? [
-          { label: 'Network Hospitals', value: `${product.networkHospitals.toLocaleString('en-IN')}+` },
+          { label: 'Network Hospitals', value: formatNetworkHospitals(product.networkHospitals) },
           { label: 'Initial Waiting Period', value: product.waitingPeriod },
           { label: 'Pre-existing Wait', value: product.preExistingWaiting },
         ]
@@ -360,7 +360,7 @@ export default async function InsuranceReviewPage({ params }: { params: Promise<
                     {isHealth && (
                       <div className="flex justify-between text-sm">
                         <span className="text-slate-600">Hospitals</span>
-                        <span className="font-semibold text-slate-900">{product.networkHospitals.toLocaleString('en-IN')}+</span>
+                        <span className="font-semibold text-slate-900">{formatNetworkHospitals(product.networkHospitals)}</span>
                       </div>
                     )}
                     <div className="flex justify-between text-sm">

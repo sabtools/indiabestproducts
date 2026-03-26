@@ -1,4 +1,5 @@
 import type { Product } from '@/lib/types';
+import { formatCurrency, formatNetworkHospitals } from '@/lib/utils';
 import ApplyButton from './ApplyButton';
 import StarRating from './StarRating';
 
@@ -74,6 +75,10 @@ export default function ComparisonTable({
                   );
                 } else if (raw === undefined || raw === null || raw === '') {
                   display = <span className="text-slate-300">&mdash;</span>;
+                } else if (feature.key === 'coverageMax' || feature.key === 'coverageMin') {
+                  display = formatCurrency(Number(raw));
+                } else if (feature.key === 'networkHospitals') {
+                  display = formatNetworkHospitals(Number(raw));
                 } else {
                   display = String(raw);
                 }

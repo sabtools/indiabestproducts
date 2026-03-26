@@ -64,13 +64,13 @@ const navItems: NavItem[] = [
   },
   {
     label: "Hosting",
-    href: "/web-hosting",
+    href: "/hosting",
     subItems: [
-      { label: "Best Web Hosting India", href: "/web-hosting/best" },
-      { label: "WordPress Hosting", href: "/web-hosting/wordpress" },
-      { label: "VPS Hosting", href: "/web-hosting/vps" },
-      { label: "Cloud Hosting", href: "/web-hosting/cloud" },
-      { label: "Domain Registration", href: "/web-hosting/domains" },
+      { label: "Best Web Hosting India", href: "/hosting/best" },
+      { label: "WordPress Hosting", href: "/hosting/wordpress" },
+      { label: "VPS Hosting", href: "/hosting/vps" },
+      { label: "Cloud Hosting", href: "/hosting/cloud" },
+      { label: "Domain Registration", href: "/hosting/domains" },
     ],
   },
   {

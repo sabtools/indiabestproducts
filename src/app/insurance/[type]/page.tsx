@@ -128,6 +128,8 @@ export default async function InsuranceTypePage({ params }: { params: Promise<{ 
     name: `Best ${config.displayName} Plans in India 2026`,
     description: config.metaDescription,
     url: `https://indiabestproducts.com/insurance/${type}`,
+    datePublished: '2026-03-26',
+    dateModified: '2026-03-26',
   };
 
   return (

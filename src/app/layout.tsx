@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Script from "next/script";
+
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -62,9 +62,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "GOOGLE_VERIFICATION_CODE",
-  },
 };
 
 const organizationSchema = {
@@ -113,20 +110,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Analytics 4 */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');
-          `}
-        </Script>
-
         {/* Organization Schema */}
         <script
           type="application/ld+json"

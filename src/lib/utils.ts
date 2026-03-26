@@ -24,12 +24,35 @@ export const allProducts: Product[] = [
 // ============================================================
 
 /**
- * Formats a number to Indian Rupee format (e.g., 1,50,000 -> Rs 1,50,000)
+ * Formats a number to Indian Rupee format with Crore/Lakh labels for readability
+ * e.g., 10000000 -> "₹1 Crore", 500000 -> "₹5 Lakh", 2500000 -> "₹25 Lakh"
  */
 export function formatCurrency(amount: number): string {
   if (amount === 0) return 'Free';
+  if (amount >= 10000000 && amount % 10000000 === 0) {
+    return `\u20B9${amount / 10000000} Crore`;
+  }
+  if (amount >= 10000000) {
+    const crore = amount / 10000000;
+    return `\u20B9${crore % 1 === 0 ? crore : crore.toFixed(1)} Crore`;
+  }
+  if (amount >= 100000 && amount % 100000 === 0) {
+    return `\u20B9${amount / 100000} Lakh`;
+  }
+  if (amount >= 100000) {
+    const lakh = amount / 100000;
+    return `\u20B9${lakh % 1 === 0 ? lakh : lakh.toFixed(1)} Lakh`;
+  }
   const formatted = amount.toLocaleString('en-IN');
   return `\u20B9${formatted}`;
+}
+
+/**
+ * Formats network hospitals count, showing "N/A" for term life plans (0 hospitals)
+ */
+export function formatNetworkHospitals(count: number): string {
+  if (count === 0) return 'N/A';
+  return `${count.toLocaleString('en-IN')}+`;
 }
 
 /**
