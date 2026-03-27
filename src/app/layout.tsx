@@ -3,11 +3,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import NewsletterPopup from "@/components/NewsletterPopup";
 
 export const metadata: Metadata = {
-  title: "IndiaBestProducts.com - Best Credit Cards, Loans & Products in India",
+  title: {
+    template: "%s | IndiaBestProducts.com",
+    default:
+      "Best Products & Deals in India — Compare Prices, Reviews | IndiaBestProducts.com",
+  },
   description:
-    "Compare and find the best credit cards, personal loans, health insurance, demat accounts, web hosting, and gadgets in India. Expert reviews, honest ratings, and zero bias. Updated for 2026.",
+    "Compare and find the best credit cards, personal loans, health insurance, demat accounts, web hosting, gadgets, and price comparison in India. Expert reviews, honest ratings, and zero bias. Updated for 2026.",
   keywords: [
     "best credit cards India",
     "personal loan comparison",
@@ -18,6 +23,10 @@ export const metadata: Metadata = {
     "credit card comparison",
     "loan comparison India",
     "best financial products India",
+    "price comparison India",
+    "best gadgets India",
+    "insurance comparison India",
+    "best deals India",
     "IndiaBestProducts",
   ],
   authors: [{ name: "IndiaBestProducts.com" }],
@@ -32,9 +41,10 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://indiabestproducts.com",
     siteName: "IndiaBestProducts.com",
-    title: "IndiaBestProducts.com - Best Credit Cards, Loans & Products in India",
+    title:
+      "Best Products & Deals in India — Compare Prices, Reviews | IndiaBestProducts.com",
     description:
-      "Compare and find the best credit cards, personal loans, health insurance, demat accounts, and more in India. Expert reviews and honest ratings.",
+      "Compare and find the best credit cards, personal loans, health insurance, demat accounts, gadgets, and more in India. Expert reviews and honest ratings.",
     images: [
       {
         url: "/og-image.png",
@@ -46,9 +56,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "IndiaBestProducts.com - Best Credit Cards, Loans & Products in India",
+    title:
+      "Best Products & Deals in India — Compare Prices, Reviews | IndiaBestProducts.com",
     description:
-      "Compare and find the best credit cards, personal loans, health insurance, demat accounts, and more in India.",
+      "Compare and find the best credit cards, personal loans, health insurance, demat accounts, gadgets, and more in India.",
     images: ["/og-image.png"],
   },
   verification: {
@@ -114,8 +125,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Dark mode flash prevention */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{if(localStorage.getItem('theme')==='dark'||(!localStorage.getItem('theme')&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark')}catch(e){}`,
+          }}
+        />
+
+        {/* PWA Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#1e40af" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+
         {/* Organization Schema */}
         <script
           type="application/ld+json"
@@ -136,6 +159,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <NewsletterPopup />
       </body>
     </html>
   );

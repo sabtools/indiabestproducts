@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import ThemeToggle from "@/components/ThemeToggle";
 
 interface NavSubItem {
   label: string;
@@ -158,6 +159,9 @@ export default function Header() {
             ))}
           </nav>
 
+          {/* Theme Toggle + Mobile Menu */}
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
           {/* Mobile Menu Button */}
           <button
             className="lg:hidden p-2 rounded-md"
@@ -175,6 +179,7 @@ export default function Header() {
               </svg>
             )}
           </button>
+          </div>
         </div>
       </div>
 
