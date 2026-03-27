@@ -31,7 +31,7 @@ export const gadgets: Gadget[] = [
       'Only 8GB unified memory in base model',
       'Limited to 2 external displays (with lid closed)',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Apple+MacBook+Air+M3&tag=indiabestpr02-21',
     featured: true,
     lastUpdated: '2026-03-15',
     metaTitle: 'Apple MacBook Air M3 Review 2026 — Price, Specs & Buy in India',
@@ -70,8 +70,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Professionals, students, and creatives who need an ultra-portable premium laptop',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 114900 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 114990 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Apple+MacBook+Air+M3&tag=indiabestpr02-21', price: 114900 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Apple+MacBook+Air+M3', price: 114990 },
     ],
   },
   {
@@ -97,7 +97,7 @@ export const gadgets: Gadget[] = [
       'Plastic build feels less premium',
       'Average speaker quality',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=HP+Pavilion+14&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-10',
     metaTitle: 'HP Pavilion 14 Review 2026 — Price Rs 55,990, Specs & Best Deals India',
@@ -135,8 +135,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Students and office workers who need a reliable everyday laptop under Rs 60,000',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 55990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 56490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=HP+Pavilion+14&tag=indiabestpr02-21', price: 55990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=HP+Pavilion+14', price: 56490 },
     ],
   },
   {
@@ -162,7 +162,7 @@ export const gadgets: Gadget[] = [
       'Display brightness is average (250 nits)',
       'Build quality is entirely plastic',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Lenovo+IdeaPad+Slim+3&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-08',
     metaTitle: 'Lenovo IdeaPad Slim 3 Review 2026 — Best Budget Laptop India Rs 35,990',
@@ -200,8 +200,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Budget-conscious students and first-time laptop buyers',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 35990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 36490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Lenovo+IdeaPad+Slim+3&tag=indiabestpr02-21', price: 35990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Lenovo+IdeaPad+Slim+3', price: 36490 },
     ],
   },
   {
@@ -227,7 +227,7 @@ export const gadgets: Gadget[] = [
       'Average webcam quality (720p)',
       'Display could be brighter for outdoor use',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=ASUS+VivoBook+15&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-05',
     metaTitle: 'ASUS VivoBook 15 Review 2026 — Price Rs 42,990, Specs & Deals India',
@@ -265,8 +265,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Everyday users looking for a capable laptop under Rs 45,000',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 42990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 43490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=ASUS+VivoBook+15&tag=indiabestpr02-21', price: 42990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=ASUS+VivoBook+15', price: 43490 },
     ],
   },
   {
@@ -292,7 +292,7 @@ export const gadgets: Gadget[] = [
       'No Thunderbolt USB-C port',
       'Battery life is average — around 7 hours',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Dell+Inspiron+15&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-01',
     metaTitle: 'Dell Inspiron 15 Review 2026 — Price Rs 49,990, Specs & Best Buy India',
@@ -330,8 +330,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Professionals who value reliability and strong after-sales support',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 49990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 50490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Dell+Inspiron+15&tag=indiabestpr02-21', price: 49990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Dell+Inspiron+15', price: 50490 },
     ],
   },
   {
@@ -357,7 +357,7 @@ export const gadgets: Gadget[] = [
       'Battery life is average at 7-8 hours',
       'Trackpad could be smoother',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Acer+Aspire+5&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-02-28',
     metaTitle: 'Acer Aspire 5 Review 2026 — Price Rs 44,990, Specs & Buy India',
@@ -395,8 +395,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Productivity users who want modern specs at a budget-friendly price',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 44990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 45490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Acer+Aspire+5&tag=indiabestpr02-21', price: 44990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Acer+Aspire+5', price: 45490 },
     ],
   },
   {
@@ -422,7 +422,7 @@ export const gadgets: Gadget[] = [
       'Display color accuracy is average for creative work',
       'Heavier at 2.29 kg — not very portable',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=HP+Victus+Gaming+Laptop&tag=indiabestpr02-21',
     featured: true,
     lastUpdated: '2026-03-12',
     metaTitle: 'HP Victus Gaming Laptop Review 2026 — RTX 4050, Price Rs 62,990 India',
@@ -461,8 +461,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Gamers looking for RTX performance under Rs 65,000',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 62990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 63490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=HP+Victus+Gaming+Laptop&tag=indiabestpr02-21', price: 62990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=HP+Victus+Gaming+Laptop', price: 63490 },
     ],
   },
   {
@@ -488,7 +488,7 @@ export const gadgets: Gadget[] = [
       'Design is conservative — no flashy aesthetics',
       'Integrated graphics only',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Lenovo+ThinkPad+E14+Gen+5&tag=indiabestpr02-21',
     featured: true,
     lastUpdated: '2026-03-14',
     metaTitle: 'Lenovo ThinkPad E14 Gen 5 Review 2026 — Price Rs 68,990, Business Laptop India',
@@ -526,8 +526,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Business professionals and corporate users who need a durable, reliable workhorse',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 68990 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 69490 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Lenovo+ThinkPad+E14+Gen+5&tag=indiabestpr02-21', price: 68990 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Lenovo+ThinkPad+E14+Gen+5', price: 69490 },
     ],
   },
 
@@ -557,7 +557,7 @@ export const gadgets: Gadget[] = [
       'Battery at 4000mAh could be bigger',
       '25W charging is slow compared to Chinese alternatives',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Samsung+Galaxy+S24&tag=indiabestpr02-21',
     featured: true,
     lastUpdated: '2026-03-15',
     metaTitle: 'Samsung Galaxy S24 Review 2026 — Price Rs 74,999, Camera, AI Features India',
@@ -596,8 +596,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Samsung fans who want flagship performance with cutting-edge AI features',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 74999 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 74999 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Samsung+Galaxy+S24&tag=indiabestpr02-21', price: 74999 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Samsung+Galaxy+S24', price: 74999 },
     ],
   },
   {
@@ -623,7 +623,7 @@ export const gadgets: Gadget[] = [
       '60Hz display — no ProMotion at this price',
       'No charger included in the box',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Apple+iPhone+15&tag=indiabestpr02-21',
     featured: true,
     lastUpdated: '2026-03-15',
     metaTitle: 'Apple iPhone 15 Review 2026 — Price Rs 69,900, Camera, USB-C India',
@@ -662,8 +662,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'iPhone users who want the latest features without the Pro price tag',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 69900 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 69900 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Apple+iPhone+15&tag=indiabestpr02-21', price: 69900 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Apple+iPhone+15', price: 69900 },
     ],
   },
   {
@@ -689,7 +689,7 @@ export const gadgets: Gadget[] = [
       'No IP68 — only IP65 rating',
       'Curved display edges may cause accidental touches',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=OnePlus+12&tag=indiabestpr02-21',
     featured: true,
     lastUpdated: '2026-03-14',
     metaTitle: 'OnePlus 12 Review 2026 — Price Rs 59,999, Hasselblad Camera India',
@@ -728,8 +728,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Power users who want top specs and fast charging at a competitive price',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 59999 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 59999 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=OnePlus+12&tag=indiabestpr02-21', price: 59999 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=OnePlus+12', price: 59999 },
     ],
   },
   {
@@ -755,7 +755,7 @@ export const gadgets: Gadget[] = [
       'Plastic frame at this price — no metal mid-frame',
       'Software updates may lag behind competition',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Realme+GT+5+Pro&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-10',
     metaTitle: 'Realme GT 5 Pro Review 2026 — Price Rs 35,999, Snapdragon 8 Gen 3 India',
@@ -793,8 +793,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Gamers and performance enthusiasts looking for flagship specs under Rs 40,000',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 35999 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 35999 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Realme+GT+5+Pro&tag=indiabestpr02-21', price: 35999 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Realme+GT+5+Pro', price: 35999 },
     ],
   },
   {
@@ -820,7 +820,7 @@ export const gadgets: Gadget[] = [
       'No charger included in the box',
       'Exynos chipset may lag behind Snapdragon in gaming',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Samsung+Galaxy+A55+5G&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-08',
     metaTitle: 'Samsung Galaxy A55 5G Review 2026 — Price Rs 29,999, Best Mid-Range India',
@@ -858,8 +858,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Mid-range buyers who trust Samsung and want reliable updates with IP67 protection',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 29999 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 29999 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Samsung+Galaxy+A55+5G&tag=indiabestpr02-21', price: 29999 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Samsung+Galaxy+A55+5G', price: 29999 },
     ],
   },
   {
@@ -885,7 +885,7 @@ export const gadgets: Gadget[] = [
       'Smaller 4610mAh battery than competition',
       'MIUI/HyperOS still has some ads',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=Xiaomi+14&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-11',
     metaTitle: 'Xiaomi 14 Review 2026 — Price Rs 49,999, Leica Camera, Specs India',
@@ -923,8 +923,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Users who want a compact flagship with Leica camera quality',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 49999 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 49999 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=Xiaomi+14&tag=indiabestpr02-21', price: 49999 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=Xiaomi+14', price: 49999 },
     ],
   },
   {
@@ -950,7 +950,7 @@ export const gadgets: Gadget[] = [
       'No wireless charging support',
       'Camera processing can be inconsistent in low light',
     ],
-    affiliateUrl: '#buy',
+    affiliateUrl: 'https://www.amazon.in/s?k=iQOO+12&tag=indiabestpr02-21',
     featured: false,
     lastUpdated: '2026-03-09',
     metaTitle: 'iQOO 12 Review 2026 — Price Rs 42,999, Best Value Flagship India',
@@ -989,8 +989,8 @@ export const gadgets: Gadget[] = [
     ],
     bestFor: 'Gamers and speed enthusiasts who want maximum specs at an aggressive price',
     buyLinks: [
-      { platform: 'Amazon', url: '#buy-amazon', price: 42999 },
-      { platform: 'Flipkart', url: '#buy-flipkart', price: 42999 },
+      { platform: 'Amazon', url: 'https://www.amazon.in/s?k=iQOO+12&tag=indiabestpr02-21', price: 42999 },
+      { platform: 'Flipkart', url: 'https://www.flipkart.com/search?q=iQOO+12', price: 42999 },
     ],
   },
 ];

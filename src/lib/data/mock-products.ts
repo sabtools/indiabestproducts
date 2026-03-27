@@ -46,7 +46,7 @@ function buildProduct(p: {
     price: p.flipkartPrice,
     originalPrice: p.flipkartMrp,
     discount: Math.round(((p.flipkartMrp - p.flipkartPrice) / p.flipkartMrp) * 100),
-    url: `https://www.flipkart.com/product/${p.flipkartPid}?affid=indiabestprod`,
+    url: `https://www.flipkart.com/search?q=${encodeURIComponent(p.name)}`,
     inStock: true,
     rating: p.flipkartRating,
     reviewCount: p.flipkartReviews,
