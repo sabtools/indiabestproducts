@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const KEY = 'indiabestproducts2026indexnow';
+const KEY = '1b89fb9ee9104a8ca547734cd018849c';
 const HOST = 'www.indiabestproducts.com';
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
-const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/indexnow';
+const INDEXNOW_ENDPOINT = 'https://www.bing.com/indexnow';
 const BATCH_SIZE = 100;
 
 async function main() {
